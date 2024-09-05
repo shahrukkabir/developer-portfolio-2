@@ -1,5 +1,87 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Azeret Mono", monospace;
+}
+
+/* common shared style */
+
+.common-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 26px;
+}
+
+/* nav style */
+
+nav {
+    display: flex;
+    margin: 20px 160px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.btn-primary {
+    padding: 17px 24px 17px 24px;
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+}
+
+.contact-btn{
+    border-radius: 8px;
+    padding: 17px 24px 17px 24px;
+    color: rgb(255, 255, 255);
+    background: rgb(13, 19, 33);    
+}
+
+/* banner-section style */
+
+.banner {
+    background-image: url('../images/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.banner-content {
+    padding: 30px 220px;
+}
+
+.banner-title {
+    color: rgb(13, 19, 33);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner .img-code{
+    padding-left: 420px;
+    margin-bottom: 20px;
+}
+
+.banner .btn{
+    padding-left: 456px;
+    margin-top: 20px;
+}
+
+
+/* main section style */
+
+main {
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
 }
