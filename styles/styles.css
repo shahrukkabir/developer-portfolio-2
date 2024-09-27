@@ -262,15 +262,15 @@ button:hover {
 }
 
 .handshake-des {
-    color: rgb(255, 255, 255);    
-    color: burlywood;
+    color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 400;
     text-align: center;
     margin-bottom: 40px;
     margin-top: 30px;
 }
-.inputtxt{
+
+.inputtxt {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -278,13 +278,31 @@ button:hover {
     width: 500px;
     border-radius: 8px;
 }
-.submit{
+
+.submit {
     padding: 18px;
     border-radius: 8px;
     font-weight: 700;
 }
 
-.input{
+.input {
     margin-left: 100px;
     justify-content: center;
+}
+
+/* footer section */
+
+footer {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 80px 110px;
+}
+.footer-container{    
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+}
+.icon{
+    display: flex;
+    gap: 30px;
 }
