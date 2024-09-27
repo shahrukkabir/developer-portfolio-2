@@ -146,17 +146,24 @@ main {
 }
 
 .learn {
-    color: rgb(13, 19, 33);
-    font-size: 20px;
+    /* color: rgb(13, 19, 33);
+     */
+    color: black;
+    font-size: 18px;
     font-weight: 400;
     line-height: 23px;
     text-align: center;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
-    padding: 10px 15px;
+    padding: 8px 13px;
 }
 
+button:hover {
+    background-color: blueviolet;
+    color: white;
+    transition: all 1s;
+}
 
 /* inspiration section */
 
@@ -165,7 +172,7 @@ main {
 }
 
 
-.frame{
+.frame {
     margin-left: 180px;
     margin-top: 50px;
 }
@@ -175,47 +182,109 @@ main {
 .current {
     padding: 80px 110px;
 }
-.skill-container{
+
+.skill-container {
     margin-top: 48px;
     display: flex;
     gap: 24px;
     justify-content: space-between;
 }
-.skill{
+
+.skill {
     padding: 40px;
     border-radius: 16px;
 }
 
-#html-skill{
+#html-skill {
     background: rgba(255, 76, 30, 0.05);
 }
-#css-skill{
+
+#css-skill {
     background: rgba(0, 76, 232, 0.05);
 }
-#js-skill{
+
+#js-skill {
     background: rgba(255, 223, 0, 0.05);
 }
 
-#skill-title{
+#skill-title {
     margin: 20px 0px;
 }
-#skill-content{
+
+#skill-content {
     margin-bottom: 20px;
 }
 
 /* next-skill section */
 
-.next{
+.next {
     padding: 80px 110px;
 }
 
-.next-skill-container{
+.next-skill-container {
     border: 1px solid black;
     display: flex;
     gap: 24px;
     padding: 40px;
     margin-top: 48px;
 }
-.next-skill-des{
+
+.next-skill-des {
     margin: 10px 0px;
+}
+
+/* handshake-section */
+
+.handshake {
+    padding: 80px 110px;
+}
+
+.handshake-content {
+    background-image: url('../images/handshake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    border-radius: 16px;
+
+}
+
+.handshake-mid {
+    padding: 60px;
+}
+
+.handshake-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.handshake-des {
+    color: rgb(255, 255, 255);    
+    color: burlywood;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.inputtxt{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+    width: 500px;
+    border-radius: 8px;
+}
+.submit{
+    padding: 18px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.input{
+    margin-left: 100px;
+    justify-content: center;
 }
