@@ -109,8 +109,8 @@ main {
 
 /* why development section */
 
-.why, .inspiration {
-    margin: 75px 0px;
+.why {
+    /* margin: 75px 0px; */
     padding: 80px 110px;
 }
 
@@ -160,8 +160,62 @@ main {
 
 /* inspiration section */
 
+.inspiration {
+    padding: 80px 110px;
+}
+
+
 .frame{
     margin-left: 180px;
     margin-top: 50px;
-    width: 100%;
+}
+
+/* current target */
+
+.current {
+    padding: 80px 110px;
+}
+.skill-container{
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.skill{
+    padding: 40px;
+    border-radius: 16px;
+}
+
+#html-skill{
+    background: rgba(255, 76, 30, 0.05);
+}
+#css-skill{
+    background: rgba(0, 76, 232, 0.05);
+}
+#js-skill{
+    background: rgba(255, 223, 0, 0.05);
+}
+
+#skill-title{
+    margin: 20px 0px;
+}
+#skill-content{
+    margin-bottom: 20px;
+}
+
+/* next-skill section */
+
+.next{
+    padding: 80px 110px;
+}
+
+.next-skill-container{
+    border: 1px solid black;
+    display: flex;
+    gap: 24px;
+    padding: 40px;
+    margin-top: 48px;
+}
+.next-skill-des{
+    margin: 10px 0px;
 }
