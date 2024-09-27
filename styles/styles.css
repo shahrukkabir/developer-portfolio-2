@@ -109,7 +109,7 @@ main {
 
 /* why development section */
 
-.why {
+.why, .inspiration {
     margin: 75px 0px;
     padding: 80px 110px;
 }
@@ -155,4 +155,13 @@ main {
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     padding: 10px 15px;
+}
+
+
+/* inspiration section */
+
+.frame{
+    margin-left: 180px;
+    margin-top: 50px;
+    width: 100%;
 }
