@@ -318,6 +318,8 @@ footer {
         margin: 0px;
         margin: 10px;
         padding: 10px;
+        display: flex;
+        gap: 20px;
     }
     .banner-content{
         padding: 0;
@@ -325,11 +327,20 @@ footer {
     }
     .banner .img-code{
         padding-left: 0;
-        margin-left: 70px;
+        margin-left: 50px;
         margin-top: 50px;
     }
     .banner .btn{
         padding-left: 0;
         margin-left: 80px;
+    }
+    .btn-primary {
+        padding: 10px;
+        border-radius: 8px;
+        color: rgb(13, 19, 33);
+    }
+    .contact-btn {
+        border-radius: 8px;
+        padding: 10px;
     }
 }
