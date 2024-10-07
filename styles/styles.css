@@ -82,19 +82,20 @@ nav {
 .banner-title {
     color: rgb(13, 19, 33);
     font-size: 35px;
-    font-weight: 800px;
+    font-weight: 800;
     text-align: center;
-    margin-bottom: 20px;
+    margin: 60px 0px;
 }
 
 .banner .img-code {
-    padding-left: 420px;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
 }
 
 .banner .btn {
     text-align: center;
-    margin-top: 40px;
+    margin: 40px;
 }
 
 
@@ -296,62 +297,67 @@ footer {
     background: rgba(13, 19, 33, 0.03);
     padding: 80px 110px;
 }
-.footer-container{    
+
+.footer-container {
     display: flex;
     gap: 100px;
     justify-content: space-around;
 }
-.icon{
+
+.icon {
     display: flex;
     gap: 30px;
 }
 
 /* Responsive */
 
-.hide{
+.hide {
     display: none;
 }
 
-@media screen and (max-width:576px){
-    nav{
+@media screen and (max-width:576px) {
+    nav {
         margin: 0px;
         margin: 10px;
         padding: 10px;
         display: flex;
         gap: 20px;
     }
-    .banner{
+
+    .banner {
         background-image: none;
     }
-    .banner-content{
+
+    .banner-content {
         padding: 0;
         margin: 0px 20px;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 25px;
         font-weight: 900;
-    }
-    .banner .img-code{
-        padding-left: 0;
-        margin-left: 50px;
-        margin-top: 50px;
     }
     .btn-primary {
         padding: 10px;
         border-radius: 8px;
         color: rgb(13, 19, 33);
     }
+
     .contact-btn {
         border-radius: 8px;
         text-align: center;
     }
-    .why{
+
+    .why {
         padding: 0px;
     }
-    .first,.third{
+
+    .first,
+    .third {
         flex-direction: column;
     }
-    .second{
+
+    .second {
         flex-direction: column-reverse;
     }
 
