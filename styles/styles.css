@@ -340,7 +340,7 @@ footer {
     }
     .contact-btn {
         border-radius: 8px;
-        padding: 10px;
+        text-align: center;
     }
     .why{
         padding: 0px;
