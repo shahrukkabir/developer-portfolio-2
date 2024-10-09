@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: "Azeret Mono", system-ui;
+}
+body{
+    font-family: "Azeret Mono", monospace;
 }
 
 
@@ -161,7 +165,8 @@ main {
 }
 
 button:hover {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    background-color: #45a049; 
     color: white;
 }
 
@@ -337,6 +342,7 @@ footer {
         font-size: 25px;
         font-weight: 900;
     }
+
     .btn-primary {
         padding: 10px;
         border-radius: 8px;
@@ -360,14 +366,16 @@ footer {
     .second {
         flex-direction: column-reverse;
     }
+
     .inspiration {
         padding: 0px;
     }
+
     .frame {
         position: relative;
         width: 100%;
         margin-left: 0px;
-        padding-bottom: 75%; 
+        padding-bottom: 75%;
     }
 
     .frame iframe {
@@ -375,31 +383,51 @@ footer {
         width: 100%;
         height: 100%;
     }
-    .current{
+
+    .current {
         padding: 0px;
     }
-    .skill-container{
+
+    .skill-container {
         flex-direction: column;
     }
-    .next{
+
+    .next {
         padding: 0px;
     }
-    .next-skill-container, .footer-container{
+
+    .next-skill-container,
+    .footer-container {
         flex-direction: column;
+        gap: 50px;
     }
-    .handshake{
+
+    .handshake {
         padding: 0px;
+        margin-top: 40px;
     }
-    .input{
+    .handshake-des{
+        color: lavenderblush;
+    }
+
+    .input {
         margin-left: 0px;
     }
-    .inputtxt{
+
+    .inputtxt {
         width: 200px;
         padding: 20px;
         margin-bottom: 18px;
     }
-    footer{
-        padding: 80px 50px;
-        margin-left: 20px;        
+    .next-skill-des{
+        margin: 30px 0px;
+    }
+    .common-description{
+        text-align: left;
+    }
+
+    footer {
+        padding: 80px 0px;
+        margin-left: 20px;
     }
 }
