@@ -102,6 +102,9 @@ nav {
     margin: 40px;
 }
 
+.btn a{
+    text-decoration: none;
+}
 
 /* main section style */
 
