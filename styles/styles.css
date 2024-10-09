@@ -157,11 +157,11 @@ main {
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
-    padding: 8px 13px;
+    padding: 6px 10px;
 }
 
 button:hover {
-    background-color: rgb(176, 137, 137);
+    background-color: blueviolet;
     color: white;
 }
 
@@ -359,6 +359,21 @@ footer {
 
     .second {
         flex-direction: column-reverse;
+    }
+    .inspiration {
+        padding: 0px;
+    }
+    .frame {
+        position: relative;
+        width: 100%;
+        margin-left: 0px;
+        padding-bottom: 75%; 
+    }
+
+    .frame iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
     }
 
 }
