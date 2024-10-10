@@ -35,7 +35,7 @@ body{
     font-weight: 800;
     line-height: 37px;
     text-align: center;
-    margin: 24px 0px;
+    margin: 50px 0px;
 }
 
 /* nav style */
@@ -119,7 +119,7 @@ main {
 
 .why {
     /* margin: 75px 0px; */
-    padding: 80px 110px;
+    padding: 50px 110px;
 }
 
 .section-top {
@@ -176,7 +176,7 @@ button:hover {
 /* inspiration section */
 
 .inspiration {
-    padding: 80px 110px;
+    padding: 50px 110px;
 }
 
 
@@ -188,7 +188,7 @@ button:hover {
 /* current target */
 
 .current {
-    padding: 80px 110px;
+    padding: 50px 110px;
 }
 
 .skill-container {
@@ -226,7 +226,7 @@ button:hover {
 /* next-skill section */
 
 .next {
-    padding: 80px 110px;
+    padding: 50px 110px;
 }
 
 .next-skill-container {
@@ -244,7 +244,7 @@ button:hover {
 /* handshake-section */
 
 .handshake {
-    padding: 80px 110px;
+    padding: 50px 110px;
 }
 
 .handshake-content {
@@ -303,7 +303,7 @@ button:hover {
 footer {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
-    padding: 80px 110px;
+    padding: 50px 110px;
 }
 
 .footer-container {
