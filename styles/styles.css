@@ -255,11 +255,11 @@ button:hover {
     width: 100%;
     height: 50vh;
     border-radius: 16px;
-
 }
 
 .handshake-mid {
     padding: 60px;
+    align-items: center;
 }
 
 .handshake-title {
@@ -404,13 +404,19 @@ footer {
         flex-direction: column;
         gap: 50px;
     }
-
+    .handshake-content{
+        height: 70vh;
+        color: black;
+    }
     .handshake {
         padding: 0px;
         margin-top: 40px;
     }
+    .handshake-title{
+         color:black
+    }
     .handshake-des{
-        color: lavenderblush;
+        color: black;
     }
 
     .input {
@@ -427,6 +433,7 @@ footer {
     }
     .common-description{
         text-align: left;
+        text-align: justify;
     }
 
     footer {
