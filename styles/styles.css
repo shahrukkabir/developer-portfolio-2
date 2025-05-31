@@ -4,7 +4,8 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: "Azeret Mono", monospace;
 }
 
@@ -54,10 +55,18 @@ nav {
 }
 
 .btn-primary {
-    padding: 17px 24px 17px 24px;
+    padding: 15px 30px 15px 30px;
+    background-color: blueviolet;
     border-radius: 8px;
-    color: rgb(13, 19, 33);
+    border: 0;
+    color: white;
+    text-decoration: none;
+    transition: all 1s;
     cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: rgb(229, 84, 115);
 }
 
 .contact-btn {
@@ -102,7 +111,7 @@ nav {
     margin: 40px;
 }
 
-.btn a{
+.btn a {
     text-decoration: none;
 }
 
@@ -169,7 +178,7 @@ main {
 
 button:hover {
     /* background-color: blueviolet; */
-    background-color: #45a049; 
+    background-color: #45a049;
     color: white;
 }
 
@@ -404,18 +413,22 @@ footer {
         flex-direction: column;
         gap: 50px;
     }
-    .handshake-content{
+
+    .handshake-content {
         height: 70vh;
         color: black;
     }
+
     .handshake {
         padding: 0px;
         margin-top: 40px;
     }
-    .handshake-title{
-         color:black
+
+    .handshake-title {
+        color: black
     }
-    .handshake-des{
+
+    .handshake-des {
         color: black;
     }
 
@@ -428,10 +441,12 @@ footer {
         padding: 20px;
         margin-bottom: 18px;
     }
-    .next-skill-des{
+
+    .next-skill-des {
         margin: 30px 0px;
     }
-    .common-description{
+
+    .common-description {
         text-align: left;
         text-align: justify;
     }
